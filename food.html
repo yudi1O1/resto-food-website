@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resto.</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%22.9em%22 font-size=%2248%22>🍴</text></svg>">
+
+
+</head>
+<body>
+<!-- ======================(nav-bar)====================== -->
+<section class="navbar">
+
+    <a href="#banner" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="link active">home</a></li>
+            <li><a href="#dishes" class="link">dishes</a></li>
+            <li><a href="#about" class="link">about</a></li>
+            <li><a href="#menu" class="link">menu</a></li>
+            <li><a href="#order" class="link">order</a></li>
+            <li><a href="#info" class="link">info</a></li>
+           
+        </ul>
+    
+    <div class="icons">
+        <ul class="icon-links">
+            <li><i class="fas fa-bars" id="menu-bars"></i></li>
+            <li><i class="fas fa-search" id="search-icon"></i></li>
+            <li><a href="#" class="fas fa-heart"></a></li>
+            <li><a href="#" class="fas fa-shopping-cart"></a></li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- ----------------------(nav-end)---------------------- -->
+<!--=========================(form -start)================ -->
+<section class="form">
+    <input type="text" placeholder="search here..." name="" id="search-box">
+    <label for="search-boc" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</section>
+<!-----------------------------(form-end) -------------------------->   
+
+
+<!--=========================(slide-start)========================-->
+<section class="banners" id="home">
+    <div class="bannerss">
+    
+             <!-- radio buttons start-->
+            <!-- <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4"> -->
+            <!--radio buttons end -->
+
+            <div class="banner">
+                <div class="brief">
+                    <h3>our special dish</h3>
+                    <h1>spicy noodles</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur, tempora velit dicta blanditiis recusandae harum omnis modi fuga veniam!</p>
+                    <button>order now</button>
+                </div>
+
+                <div class="imgage">
+                    <img src="/images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+        <div class="banner">
+                <div class="brief">
+                    <h3>our special dish</h3>
+                    <h1>rosted chicken</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur, tempora velit dicta blanditiis recusandae harum omnis modi fuga veniam!</p>
+                    <button>order now</button>
+                </div>
+                <div class="imgage">
+                    <img src="/images/home-img-2.png" alt="">
+                </div>
+         </div>
+
+            <div class="banner">
+                <div class="brief">
+                    <h3>our special dish</h3>
+                    <h1>woodFire pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur, tempora velit dicta blanditiis recusandae harum omnis modi fuga veniam!</p>
+                    <button>order now</button>
+                </div>
+                <div class="imgage">
+                    <img src="/images/home-img-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+</section>
+<!-------------------------- (slide-end) --------------------------->
+
+<!--=========================(menu-start)======================-->
+<section class="menu" id="dishes">
+    <div class="menu-container">
+        <h3>our dishes</h3>
+        <h1>popular dishes</h1>
+        <div class="menu-items">
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                </div>
+                <div class="food">
+                    <img src="/images/dish-1.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                </div>
+                <div class="food">
+                    <img src="/images/dish-2.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                </div>
+                <div class="food">
+                    <img src="/images/dish-3.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                </div>
+                <div class="food">
+                    <img src="/images/dish-4.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+            <div class="item">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                <div class="food">
+                    <img src="/images/dish-5.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart"></i>
+                    <i class="fas fa-eye-slash" id="eye"></i>
+                </div>
+                <div class="food">
+                    <img src="/images/dish-6.png" alt="">
+                    <h2>tasty food</h2>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <span>$15.99</span>
+                     <button>add to cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-------------------------- (menu-end) -------------------------->
+
+<!--=========================(article-start)====================== -->
+<section class="article" id="about">
+    <div class="heading">
+        <h3>about us</h3>
+        <h1>why chose us</h1>
+        <div class="statement">
+            <img src="/images/about-img.png" alt="">
+            <div class="state">
+                <h1>best food in the country</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iure? Eveniet ipsam voluptas illum itaque ipsum corrupti consequatur asperiores provident?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti nihil dicta maiores similique praesentium ex veritatis ut facere excepturi!</p>
+                <div class="buttonss">
+                    <div class="button-1">
+                        <i class="fa fa-truck" aria-hidden="true"></i>
+                        <p>free delivery</p>
+                    </div>
+                    <div class="button-1">
+                        <i class="fa fa-dollar-sign" aria-hidden="true"></i>
+                        <p>easy payment</p>
+                    </div>
+                    <div class="button-3">
+                        <i class="fas fa-headphones-alt"></i>
+                        <p>24/7 service</p>
+                    </div>
+                    
+                </div>
+                <button>learn more</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-------------------------- (article-end) -------------------------->
+<!--=========================(start)====================== -->
+<section class="spacilit2" id="menu">
+    <div class="menu-container">
+        <h3>our spacility</h3>
+        <h1>today's  spacility</h1>
+
+        <div class="menu-item">
+
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-1.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-2.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-3.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-4.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-5.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="like">
+                    <i class="fas fa-heart" id="heart2"></i>
+                </div>
+                <div class="foode">
+                    <img class="image" src="/images/menu-6.jpg" alt="">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                    </div>
+                    <h2>tasty food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit Quidem, explicabo.</p>
+
+                    <div class="alig">
+                        <button>add to cart</button>
+                        <span>$15.99</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+         </div>
+
+        </div>
+</section>
+
+<!-- swiper -->
+
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span><br>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span><br>
+                <input type="number" placeholder="enter your number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your order</span><br>
+                <input type="text" placeholder="enter food name">
+            </div>
+            <div class="input">
+                <span>additional food</span><br>
+                <input type="test" placeholder="extra with food">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>how musch</span><br>
+                <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+                <span>date and time</span><br>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your address</span><br>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span><br>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        
+
+        <input type="submit" value="order now" class="btn">
+
+    </form>
+
+</section>
+<!-------------------------- (end) -------------------------->
+
+<!--=========================(start)====================== -->
+<section class="about" id="info">
+
+    <div class="abouts">
+        <div class="location">
+            <h1>location</h1>
+            <p>india</p>
+            <p>japan</p>
+            <p>russia</p>
+            <p>france</p>
+        </div>
+
+        <div class="location">
+            <h1>quick-link</h1>
+            <a href="#home">home</a>
+            <a href="#dishes">dish</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+        </div>
+
+        <div class="location">
+            <h1>contact info</h1>
+            <p>+111-222-34</p>
+            <p>+222-3334-44</p>
+            <p>russia@gmail.mco</p>
+            <p>france@hotmail.com</p>
+        </div>
+
+        <div class="follow us">
+            <h1>follow us</h1>
+            <p>facebook</p>
+            <p>twitter</p>
+            <p>instagram</p>
+            <p>linked-in</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p><i class="fa fa-copyright" aria-hidden="true"></i> copright 2022 by <span>mr. uddeshya raj</span></p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------- (end) -------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- script link -->
+    <script src="food.js"></script>
+    
+</body>
+</html>
+
+<!--=========================(start)====================== -->
+<!-------------------------- (end) -------------------------->
